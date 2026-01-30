@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ker OCR Template v1</title>
+    </head>
+    <body>
+        <header>
+            {{tags_html}}
+            <h1>India & I Studies<br> Student Assessment Form</h1>
+            <h2>Send an image on: <img src='whatsapp.png' class="whatsapp_logo" /> <u><b>{{phoneNumber}}</b></u></h2>
+            <p>Survey ID: {{survey_id}} &nbsp;&nbsp; School: {{student_school}}<br> Student: {{student_name}} - {{student_tfi_id}}</p>
+        </header>
+
+        <table class="questions_table">
+            <thead>
+                <tr class="table-header">
+                    <th class="question-header">Questions About 21st Century Skills</th>
+                    <th class="options-header"><div>Never</div></th>
+                    <th class="options-header"><div>Sometimes</div></th>
+                    <th class="options-header"><div>Often</div></th>
+                    <th class="options-header"><div>Always</div></th>
+                    <th class="fiducial-header"></th>
+                </tr>
+            </thead>
+            {{questions}}
+            <!-- <tr>
+                <td class="question">I help my friends when they need it.</td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="row-fiducial"><div class="row-fiducial-marker"></div></td>
+            </tr>
+            <tr>
+                <td class="question">I try to understand how others feel.</td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="row-fiducial"><div class="row-fiducial-marker"></div></td>
+            </tr>
+            <tr>
+                <td class="question">I like sharing my thoughts with others.</td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="bubble"><span class="circle"></span></td>
+                <td class="row-fiducial"><div class="row-fiducial-marker"></div></td>
+            </tr> -->
+        </table>
+    </body>
+</html>

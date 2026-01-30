@@ -1,0 +1,139 @@
+@page {
+    size: A4;
+    margin: 1mm;
+    border: 5px solid black;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('LeagueSpartan.ttf') format('truetype');
+}
+
+/* corner fiducial markers */
+.marker {
+  position: fixed;
+  width: 10mm;
+  height: 10mm;
+  background: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Positions */
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+body {
+    font-family: 'LeagueSpartan', sans-serif;
+    font-size: 14px;
+    line-height: 1.0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;;
+}
+
+header > p {
+    text-align: center;
+}
+
+/* td {
+    border: 1px solid black;
+} */
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    table-layout: fixed;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+table th:first-child {
+    width: 70%;
+}
+
+/* table borders */
+th, td {
+    border: 1px solid grey;
+}
+
+table td:last-child,
+table th:last-child {
+  border: none;
+}
+
+.question-header {
+    text-align: center;
+}
+
+.question {
+    padding-left: 2mm;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border: 2.5px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 2px auto 2px auto;
+}
+
+.fiducial-header {
+    width: 12mm;
+}
+
+.row-fiducial-marker {
+    width: 10mm;
+    height: 10mm;
+    background: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 2mm;
+}
+
+/* options header */
+.options-header {
+    height: 30mm;
+    padding: 0;
+    position: relative;
+    width: 10mm;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.options-header > div {
+    transform: rotate(90deg);
+    margin-top: 15mm;
+    padding: 0;
+    direction: rtl;
+}
+
+tr {
+    height: 12mm;
+}
