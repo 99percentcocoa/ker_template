@@ -41,7 +41,6 @@ def generate_questions_html(sheet_meta: SheetMeta) -> str:
         questions_html += '    <td class="bubble"><span class="circle"></span></td>\n'
         questions_html += '    <td class="bubble"><span class="circle"></span></td>\n'
         questions_html += '    <td class="bubble"><span class="circle"></span></td>\n'
-        questions_html += f'    <td class="row-fiducial"><div class="row-fiducial-marker" style="background-image: url({tag_url})"></div></td>\n'
         questions_html += "</tr>\n"
 
     return questions_html

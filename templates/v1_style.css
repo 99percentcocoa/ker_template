@@ -9,37 +9,6 @@
     src: url('LeagueSpartan.ttf') format('truetype');
 }
 
-/* corner fiducial markers */
-.marker {
-  position: fixed;
-  width: 10mm;
-  height: 10mm;
-  background: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* Positions */
-.top-left {
-  top: 10px;
-  left: 10px;
-}
-
-.top-right {
-  top: 10px;
-  right: 10px;
-}
-
-.bottom-left {
-  bottom: 10px;
-  left: 10px;
-}
-
-.bottom-right {
-  bottom: 10px;
-  right: 10px;
-}
-
 body {
     font-family: 'LeagueSpartan', sans-serif;
     font-size: 14px;
@@ -80,10 +49,10 @@ th, td {
     border: 1px solid grey;
 }
 
-table td:last-child,
+/* table td:last-child,
 table th:last-child {
   border: none;
-}
+} */
 
 .question-header {
     text-align: center;
